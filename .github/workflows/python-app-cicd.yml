@@ -2,14 +2,8 @@ name: Python FastAPI App CI/CD
 
 on:
   push:
-    paths:
-      - "03-real-apps/python-app/**"
-    branches: [main, develop]
   pull_request:
-    paths:
-      - "03-real-apps/python-app/**"
-    branches: [main]
-
+  
 env:
   PYTHON_VERSION: "3.11"
   APP_PATH: "03-real-apps/python-app"
