@@ -3,10 +3,10 @@ name: Python FastAPI App CI/CD
 on:
   push:
   pull_request:
-  
+
 env:
   PYTHON_VERSION: "3.11"
-  APP_PATH: "03-real-apps/python-app"
+  APP_PATH: "python-app"
   IMAGE_NAME: deploy
 
 
