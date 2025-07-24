@@ -1,0 +1,9 @@
+name: Hello World
+# workflow name
+on: [push]
+jobs:
+  hello: 
+  # hello - name of job
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "github actions test"
